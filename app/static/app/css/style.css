@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 2;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #d1b30b;
+    color: #201f1f;
+  }
+  
+  tr:nth-child(even) {
+    background-color:#007bff;
+  }
+  
+  tr:hover {
+    background-color: #0ddd64;
+  }
+  
+  td.check_current_load {
+    color: red;
+    font-weight: bold;
+  }
+
+  body {
+    background-color: rgb(168, 220, 238);
+    font-family: verdana;
+  }
+  
